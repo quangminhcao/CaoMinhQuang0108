@@ -13,4 +13,10 @@ namespace CAOMINHQUANG108.model
         [Required, Display(Name = "Giới Tính")]
         public Boolean CMQGender { get; set; }
     }
+
+    public class StringProcessCMQ108 : CMQ108
+    {
+        public String CMQName { get; set; }
+    }
 }
+
