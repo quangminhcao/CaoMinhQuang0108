@@ -1,0 +1,43 @@
+@model CAOMINHQUANG108.model.CMQ108
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>CMQ108</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CMQId" class="control-label"></label>
+                <input asp-for="CMQId" class="form-control" />
+                <span asp-validation-for="CMQId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CMQName" class="control-label"></label>
+                <input asp-for="CMQName" class="form-control" />
+                <span asp-validation-for="CMQName" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="CMQGender" /> @Html.DisplayNameFor(model => model.CMQGender)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

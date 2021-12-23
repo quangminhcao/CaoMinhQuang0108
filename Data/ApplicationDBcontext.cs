@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CaoMinhQuang108.Models;
+using CAOMINHQUANG108.model;
 
     public class ApplicationDBcontext : DbContext
     {
@@ -12,5 +13,6 @@ using CaoMinhQuang108.Models;
         {
         }
         public DbSet<CaoMinhQuang108.Models.UniversityCMQ108> UniversityCMQ108 { get; set; }
+        public DbSet<CAOMINHQUANG108.model.CMQ108> CMQ108 { get; set; }
 
     }

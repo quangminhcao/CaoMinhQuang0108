@@ -169,3 +169,8 @@ E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\UniversityCMQ108
 E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\UniversityCMQ108\Details.cshtml.g.cs
 E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\UniversityCMQ108\Edit.cshtml.g.cs
 E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\UniversityCMQ108\Index.cshtml.g.cs
+E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\CMQ108\Create.cshtml.g.cs
+E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\CMQ108\Delete.cshtml.g.cs
+E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\CMQ108\Details.cshtml.g.cs
+E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\CMQ108\Edit.cshtml.g.cs
+E:\CaoMinhQuang108\CaoMinhQuang108\obj\Debug\net5.0\Razor\Views\CMQ108\Index.cshtml.g.cs
